@@ -46,8 +46,8 @@ This guide will help you deploy your litigation management system using a modern
 2. **Configure the deployment**:
    - **Name**: `litigation-management-system`
    - **Branch**: `main`
-   - **Build Command**: `cd litigation-management-system && npm install && npm run build`
-   - **Publish Directory**: `litigation-management-system/build`
+   - **Build Command**: `npm install && npm run build`
+   - **Publish Directory**: `./build`
 
 3. **Set Environment Variables**:
    ```
