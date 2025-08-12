@@ -92,5 +92,5 @@ Thumbs.db
 # Supabase
 .supabase/
 
-# Render
-render.yaml
+# Render (commented out to include in repo)
+# render.yaml
