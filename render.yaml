@@ -1,7 +1,7 @@
 services:
   - type: static_site
     name: litigation-management-system
-    buildCommand: ./debug-build.sh
+    buildCommand: mkdir -p src && cp -r public src/ && npm ci && npm run build
     staticPublishPath: ./build
     envVars:
       - key: REACT_APP_SUPABASE_URL
