@@ -1,0 +1,17 @@
+
+> litigation-management-frontend@1.0.0 build
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+TS2300: Duplicate identifier 'Alert'.
+    1 | import React, { useState, useEffect } from 'react';
+    2 | import {
+  > 3 |   Alert,
+      |   ^^^^^
+    4 |   Box,
+    5 |   Typography,
+    6 |   Paper,
+
+
